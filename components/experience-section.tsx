@@ -12,7 +12,7 @@ export function ExperienceSection() {
     {
       title: "Analizador de sistemas y gestión de productos",
       company: "Abastecedora Industrial Viesa",
-      period: "Mayo 2023 - Noviembre 2023",
+      period: "Mayo 2023 - Mayo 2024",
       description:
         "Encargado de la gestión de datos y sistemas informáticos para el desarrollo y administración de una base de datos, instalación y actualización regular de programas y mantenimiento preventivo y correctivo del equipo informático",
     },
