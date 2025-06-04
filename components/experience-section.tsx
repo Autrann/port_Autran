@@ -19,7 +19,7 @@ export function ExperienceSection() {
     {
       title: "Analista y Desarrollador de Sistemas",
       company: "Departamento de Desarrollo Informático y Estadística, UASLP",
-      period: "Agosto 2024 - Agosto 2025",
+      period: "Junio 2024 - Junio 2025",
       description:
         "Responsable de la administración y mantenimiento de servidores, sistemas y páginas institucionales, asegurando su correcto funcionamiento y alta disponibilidad así como desarrollo de software personalizado para generación de reportes o documentos institucionales",
     },

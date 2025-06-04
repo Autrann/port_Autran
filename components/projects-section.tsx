@@ -29,7 +29,7 @@ export function ProjectsSection() {
         "Aplicación Android desarrollada con Flutter y Tailwind, diseñada para ayudar a niños y adolescentes a administrar su dinero de manera divertida y educativa.",
       longDescription:
         "PennyPal es una aplicación móvil innovadora que enseña a los niños y adolescentes conceptos financieros básicos a través de una interfaz interactiva y atractiva. La aplicación incluye funciones como seguimiento de gastos, metas de ahorro, recompensas virtuales y lecciones financieras adaptadas a diferentes edades. Desarrollada con Flutter para garantizar un rendimiento óptimo en dispositivos Android y utilizando Tailwind CSS para un diseño moderno y responsivo.",
-      tags: ["Flutter", "Dart", "Tailwind CSS", "Firebase", "Android"],
+      tags: ["Flutter", "Dart", "Firebase", "Android"],
       category: "mobile",
       image: "/projects/VistasPennyPal.png",
       github: "https://github.com/Autrann/_PennyPal",
@@ -46,6 +46,72 @@ export function ProjectsSection() {
       category: "desktop",
       image: "/projects/visualizer.png",
       github: "https://github.com/Autrann/obj-viewer-cpp-glut",
+      demo: "#",
+      icon: <Box className="h-5 w-5" />,
+    },
+    {
+      title: "Ensamblador y Cargador-Ligador SIC/XE",
+      description:
+        "Aplicación gráfica en C# que permite ensamblar y cargar programas SIC/XE, con soporte para bloques, secciones y símbolos externos.",
+      longDescription:
+        "Este proyecto implementa un ensamblador en dos pasos para la arquitectura SIC/XE con soporte para bloques, secciones externas (CSECT), símbolos externos (EXTDEF y EXTREF), evaluación de expresiones y generación de código objeto. Además, incluye un cargador-ligador que aplica el algoritmo de dos pasos para cargar múltiples módulos en memoria, generando un mapa de memoria visual con colores, dirección de ejecución y registros de modificación. Todo está integrado en una interfaz gráfica desarrollada con Windows Forms en C#, con visualizadores personalizados para archivos intermedios, símbolos y registros.",
+      tags: ["C#", "SIC/XE", "Windows Forms"],
+      category: "desktop",
+      image: "/projects/Sicxe.png",
+      github: "https://github.com/Autrann/Ensamblador-SICXE",
+      demo: "#",
+      icon: <Box className="h-5 w-5" />,
+    },
+    {
+      title: "Sistema de Economia Circular",
+      description:
+        "Sistema para que los alumnos puedan intercambiar productos y servicios de manera sostenible, fomentando la economía circular. (A espera de Hosting)",
+      longDescription:
+        "Proyecto solicitado por Agenda Ambiental. Es una plataforma tipo marketplace donde los alumnos pueden publicar objectos y recibir ofertas de otros usuarios para intercambiar productos y servicios. El sistema está diseñado para fomentar la economía circular, permitiendo a los estudiantes reutilizar y reciclar productos en lugar de desecharlos. Desarrollado con Laravel y Vue.js, el sistema incluye funcionalidades como registro de usuarios, publicación de anuncios, gestión de ofertas y un sistema de mensajería interna.",
+      tags: ["Laravel", "MySQL", "JavaScript", "Vue.js", "Tailwind"],
+      category: "web",
+      image: "/projects/Circular.png",
+      github: "#",
+      demo: "#",
+      icon: <Box className="h-5 w-5" />,
+    },
+    {
+      title: "Diseñador de Planes de Estudio",
+      description:
+        "Herramienta visual para crear y exportar planes de estudio académicos. (A espera de Hosting)",
+      longDescription:
+        "Aplicación web interactiva que permite diseñar, organizar y visualizar planes de estudio académicos de forma gráfica. Los usuarios pueden colocar materias sobre un lienzo, definir serializaciones mostrando claves de materias precedentes, agrupar materias por secciones usando colores de fondo, y exportar el resultado a un PDF. Incluye además un editor de texto enriquecido para describir el plan de estudio. El sistema está diseñado para ser intuitivo y claro, y su estado puede guardarse y cargarse fácilmente. Proyecto desarrollado con front end en React y backend en Laravel, utilizando PDFMake para la generación de PDFs.",
+      tags: ["React", "Laravel", "Javascript", "HTML5", "CSS3", "PDFMake"],
+      category: "web",
+      image: "/projects/StudyPlan.png",
+      github: "https://github.com/Autrann/PlanesEstudio",
+      demo: "#",
+      icon: <Box className="h-5 w-5" />,
+    },
+    
+    {
+      title: "Sistema de Gestión de Constancias UASLP",
+      description:
+        "Sistema para que los alumnos de la UASLP puedan hacer solicitudes de constancias de estudios y hacer el proceso completo en línea.",
+      longDescription:
+        "El proyecto está pensado para agilizar el procedimiento de solicitud de constancias de estudios en la UASLP. Los alumnos pueden hacer solicitudes en línea, adjuntar documentos necesarios y recibir notificaciones sobre el estado de su solicitud. El sistema incluye un panel administrativo para gestionar las solicitudes, verificar documentos y generar fichas de pago para el trámite. Desarrollado con PHP puro sin Framework y con Bootstrap por petición de la universidad.",
+      tags: ["PHP", "Bootstrap"],
+      category: "web",
+      image: "/projects/Constancias.png",
+      github: "#",
+      demo: "https://servicios.ing.uaslp.mx/gtm/projects/constancias/views/login.php",
+      icon: <Box className="h-5 w-5" />,
+    },
+    {
+      title: "Sistema de Control Escolar",
+      description:
+        "Sistema para la gestión de instituciones educativas. Permite administrar alumnos, maestros, materias y calificaciones de manera eficiente.",
+      longDescription:
+        "Este sistema de control escolar es una aplicación web desarrollada con una base de datos MySQL, desarrollado con Laravel. La aplicación diseñada para facilitar la gestión de instituciones educativas. Permite a los administradores gestionar alumnos, maestros, materias y calificaciones de manera eficiente. Incluye funcionalidades como registro de alumnos, asignación de materias, gestión de calificaciones y generación de reportes. La interfaz es intuitiva y responsiva, adaptándose a diferentes dispositivos.",
+      tags: ["Laravel", "PHP", "Tailwind"],
+      category: "web",
+      image: "/projects/Educative.png",
+      github: "https://github.com/Autrann/Control-Escolar",
       demo: "#",
       icon: <Box className="h-5 w-5" />,
     },
@@ -101,6 +167,7 @@ export function ProjectsSection() {
                 <TabsTrigger value="all">Todos</TabsTrigger>
                 <TabsTrigger value="mobile">Móvil</TabsTrigger>
                 <TabsTrigger value="desktop">Escritorio</TabsTrigger>
+                <TabsTrigger value="web">Web</TabsTrigger>
               </TabsList>
             </Tabs>
           </motion.div>
@@ -152,12 +219,14 @@ export function ProjectsSection() {
                             ))}
                           </div>
                           <div className="flex gap-2">
+                            {project.github && project.github !== "#" && (
                             <Button variant="outline" size="sm" asChild>
                               <a href={project.github} target="_blank" rel="noopener noreferrer">
                                 <Github className="h-4 w-4 mr-1" />
                                 Código
                               </a>
                             </Button>
+                            )}
                             {project.demo && project.demo !== "#" && (
                               <Button size="sm" asChild>
                               <a href={project.demo} target="_blank" rel="noopener noreferrer">
@@ -190,12 +259,14 @@ export function ProjectsSection() {
                   </div>
                 </CardContent>
                 <CardFooter className="flex gap-2">
+                  {project.github && project.github !== "#" && (
                   <Button variant="outline" size="sm" asChild>
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="h-4 w-4 mr-1" />
                       Código
                     </a>
                   </Button>
+                  )}
                     {project.demo && project.demo !== "#" && (
                     <Button size="sm" asChild>
                       <a href={project.demo} target="_blank" rel="noopener noreferrer">
